@@ -1,0 +1,1 @@
+rootProject.name = "hackconf-kotlin-backend-presentation"
