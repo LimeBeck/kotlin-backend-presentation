@@ -2,6 +2,10 @@
 
 Я в Telegram: [@limebeck](https://t.me/limebeck)
 
+Kotlin сообщество в Telegram: [Kotlin Community](https://t.me/kotlin_lang)
+
+Российское Kotlin сообщество в Telegram: [Kotlin Russia](https://t.me/kotlin_russia)
+
 Открыть презентацию в браузере можно по ссылке: https://kotlin-backend-presentation.static.limebeck.dev/
 
 Презентация написана с использованием [Reveal-Kt](https://github.com/LimeBeck/reveal-kt)
