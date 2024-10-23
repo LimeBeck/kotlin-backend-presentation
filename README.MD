@@ -31,8 +31,8 @@
 
 ## Фреймворки
 
+* Spring: https://spring.io/
+* Ktor: https://ktor.io/
 * Micronaut: https://micronaut.io/
 * Quarkus: https://quarkus.io/
 * Vert.x: https://vertx.io/
-* Ktor: https://ktor.io/
-* Spring: https://spring.io/
