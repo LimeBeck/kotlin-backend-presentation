@@ -1,5 +1,26 @@
 # Kotlin в тылу: используем Kotlin для серверной разработки
 
+Я в Telegram: [@limebeck](https://t.me/limebeck)
+
+Открыть презентацию в браузере можно по ссылке: https://kotlin-backend-presentation.static.limebeck.dev/
+
+Презентация написана с использованием [Reveal-Kt](https://github.com/LimeBeck/reveal-kt)
+- обертки в виде Kotlin DSL поверх [reveal.js](https://revealjs.com/)
+
+Для запуска локально необходимо установить [JBang](https://jbang.dev) и выполнить
+
+```bash
+./presentation/hackconf-kotlin-backend-presentation.reveal.kts
+```
+
+или же запустить `presentation/hackconf-kotlin-backend-presentation.reveal.kts` напрямую из IDE
+
+Управление в презентации:
+- `Space` - вперёд
+- `P` - назад
+- `O` - обзор структуры
+- стрелками - перемещение по структуре
+
 ## Полезные ссылки
 
 * The State of Developer Ecosystem: https://www.jetbrains.com/lp/devecosystem-2023/kotlin/
