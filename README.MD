@@ -2,10 +2,6 @@
 
 Я в Telegram: [@limebeck](https://t.me/limebeck)
 
-Kotlin сообщество в Telegram: [Kotlin Community](https://t.me/kotlin_lang)
-
-Российское Kotlin сообщество в Telegram: [Kotlin Russia](https://t.me/kotlin_russia)
-
 Открыть презентацию в браузере можно по ссылке: https://kotlin-backend-presentation.static.limebeck.dev/
 
 Презентация написана с использованием [Reveal-Kt](https://github.com/LimeBeck/reveal-kt)
@@ -30,6 +26,8 @@ Kotlin сообщество в Telegram: [Kotlin Community](https://t.me/kotlin_
 * The State of Developer Ecosystem: https://www.jetbrains.com/lp/devecosystem-2023/kotlin/
 * Документация по Kotlin: https://kotlinlang.org/
 * Презентация по Kotlin Script: https://github.com/LimeBeck/kotlin-script-presentation
+* Kotlin сообщество в Telegram: [Kotlin Community](https://t.me/kotlin_lang)
+* Российское Kotlin сообщество в Telegram: [Kotlin Russia](https://t.me/kotlin_russia)
 
 ## Фреймворки
 
