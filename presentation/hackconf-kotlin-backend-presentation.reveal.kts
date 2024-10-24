@@ -135,10 +135,11 @@ slides {
             +kotlinCode {
                 """
                 val immutable = "value"
-                immutable = "newValue" //Не скомпилируется
                 
                 var mutable = "value"
                 mutable = "newValue"
+                
+                var notChanged = "notChangedValue" //Предупреждение компилятора о неизменности данных
                 """.trimIndent()
             }
         }
@@ -150,7 +151,7 @@ slides {
             +kotlinCode {
                 """
                 val immutableList = listOf("value1", "value2")
-                immutableList += "newValue" //Не скомпилируется
+                immutableList += "newValue" //Не скопилируется - нет метода add
                 
                 val mutableList = mutableListOf("value1", "value2")
                 mutableList += "newValue"
@@ -165,7 +166,7 @@ slides {
             +kotlinCode {
                 """
                 val immutableMap = mapOf("key" to "value")
-                immutableMap["key2"] = "newValue" //Не скомпилируется
+                immutableMap["key2"] = "newValue" //Не скопилируется - нет метода put
                 
                 val mutableMap = mutableMapOf("key" to "value")
                 mutableMap["key2"] = "newValue"
@@ -181,7 +182,7 @@ slides {
                 "Лаконичность",
                 "Функциональный подход",
                 "Корутины",
-                "Умные приведения типов",
+                "Кроссплатформа",
             )
         }
     }
@@ -191,15 +192,23 @@ slides {
             +smallTitle { "Kotlin Backend фреймворки" }
         }
         slide {
-            +smallTitle { "Kotlin Backend фреймворки" }
-            +unorderedListOf(
-                "Spring MVC/Spring Boot",
-                "Ktor",
-                "Quarkus",
-                "Micronaut",
-                "Vert.x",
-            )
+            +smallTitle { "Что такое фреймворк?" }
         }
+        slide {
+            +smallTitle { "Что такое фреймворк?" }
+            +regular { "инструмент, который помогает быстрее и проще создавать приложения, следуя уже проверенной структуре и логике" }
+        }
+//        slide {
+//            +smallTitle { "Kotlin Backend фреймворки" }
+//            +unorderedListOf(
+//                "Spring MVC/Spring Boot",
+//                "Ktor",
+//                "Quarkus",
+//                "Micronaut",
+//                "Vert.x",
+//
+//            )
+//        }
     }
 
     verticalSlide {
@@ -213,6 +222,11 @@ slides {
             +smallTitle { "Spring MVC/Spring Boot" }
             +smallTitle { "JVM Backend фреймворк" }
             +smallTitle { "по умолчанию" }
+        }
+        slide {
+            +img("web-framework-popular.png") {
+                stretch = true
+            }
         }
         slide {
             +smallTitle { "Преимущества" }
@@ -326,6 +340,11 @@ slides {
                 "Низкое время запуска",
                 fragmented = false,
             )
+        }
+        slide {
+            +img("quarkus-speed.png") {
+                stretch = true
+            }
         }
         slide {
             +smallTitle { "Недостатки" }
