@@ -333,6 +333,11 @@ slides {
             +smallTitle { "Супербыстрый JVM фреймворк" }
         }
         slide {
+            +img("quarkus-speed.png") {
+                stretch = true
+            }
+        }
+        slide {
             +smallTitle { "Преимущества" }
             +unorderedListOf(
                 "Ориентация на нативную компиляцию",
@@ -341,11 +346,6 @@ slides {
                 "Низкое время запуска",
                 fragmented = false,
             )
-        }
-        slide {
-            +img("quarkus-speed.png") {
-                stretch = true
-            }
         }
         slide {
             +smallTitle { "Недостатки" }
